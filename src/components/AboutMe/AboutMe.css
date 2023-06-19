@@ -1,0 +1,76 @@
+.about-me {
+    margin-top: 5rem;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.experience__item {
+    width: 50%;
+    min-height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px var(--orange);
+    transition: 0.5s;
+}
+.experience__item:hover {
+    background: var(--orange-gradient);
+    animation: pulse 1s;
+}
+.experience__item:hover .experience__h4 {
+    color: var(--text);
+    border-bottom: solid 2px rgba(255, 255, 255, 0.525);
+}
+.experience__item div {
+    width: 50%;
+    height: 75%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.experience__h4 {
+    padding: 0;
+    margin: 0;
+    font-size: 5rem;
+    color: var(--orange);
+    border-bottom: solid 2px rgba(128, 128, 128, 0.525);
+}
+.experience__p {
+    color: var(--text);
+    margin: 1rem;
+    font-size: 1.8rem;
+}
+.my-info {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info__h3 {
+    font-size: 6rem;
+    line-height: 0.5;
+    color: var(--text);
+}
+.info__h3 span {
+    color: var(--orange);
+}
+.info__p {
+    width: 80%;
+    font-size: 2.5rem;
+    text-align: justify;
+}
