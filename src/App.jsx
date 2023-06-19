@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Header from './components/Header/header'
+import Header from './components/Header/Header'
 import Nav from './components/Nav/Nav'
 import AboutMe from './components/AboutMe/AboutMe';
 import Skills from './components/Skills/Skills';
