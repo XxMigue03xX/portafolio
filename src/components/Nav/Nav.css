@@ -47,11 +47,11 @@ a {
 }
 @media (max-width: 900px) {
     .nav-container {
-        top: calc(100vh - 5rem);
+        width: 80%;
+        height: 4rem;
+        top: calc(100% - 5rem);
         left: 50%;
         transform: translate(-50%);
-        height: 4rem;
-        width: 80%;
         flex-direction: initial;
         gap: 0.5rem;
         border-radius: 30px;
