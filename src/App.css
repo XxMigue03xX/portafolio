@@ -5,6 +5,7 @@
     background-color: var(--background-body);
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 .day-mode {
     --text: #191d2b;
@@ -13,6 +14,7 @@
     background-color: var(--background-body);
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 footer {
     width: 100%;
