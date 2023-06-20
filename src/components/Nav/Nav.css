@@ -47,7 +47,7 @@ a {
 }
 @media (max-width: 900px) {
     .nav-container {
-        width: 80%;
+        width: 80vw;
         height: 4rem;
         top: calc(100% - 5rem);
         left: 50%;
