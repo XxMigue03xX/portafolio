@@ -10,14 +10,14 @@ const Skills = () => {
     const sr = ScrollReveal();
     sr.reveal('.soft-skills', {
       duration: 3000,
-      origin: 'right',
-      distance: '-100px',
+      origin: 'bottom',
+      distance: '-10px',
       reset: true,
     });
     sr.reveal('.hard-skills', {
       duration: 3000,
-      origin: 'left',
-      distance: '-100px',
+      origin: 'bottom',
+      distance: '-10px',
       reset: true,
     });
     AOS.init();

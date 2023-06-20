@@ -36,13 +36,13 @@ const Header = () => {
       sr.reveal('.description', {
         duration: 3000,
         origin: 'bottom',
-        distance: '-100px',
+        distance: '-10px',
         reset: true
       });
       sr.reveal('.btn-cv', {
         duration: 3000,
         origin: 'left',
-        distance: '-100px',
+        distance: '-10px',
         reset: true
       });
       sr.reveal('.my-img', {

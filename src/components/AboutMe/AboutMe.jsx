@@ -9,14 +9,14 @@ const AboutMe = () => {
     const sr = ScrollReveal();
     sr.reveal('.experience', {
       duration: 3000,
-      origin: 'right',
-      distance: '-100px',
+      origin: 'bottom',
+      distance: '-10px',
       reset: true,
     });
     sr.reveal('.my-info', {
       duration: 3000,
-      origin: 'left',
-      distance: '-100px',
+      origin: 'bottom',
+      distance: '-10px',
       reset: true,
     });
     AOS.init();
