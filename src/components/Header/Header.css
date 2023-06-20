@@ -117,13 +117,12 @@ h2 {
     height: 200px;
   }
   .header__diagonal {
-    position: unset;
     margin: 0;
-    height: auto;
-    width: 100%;
-    transform: unset;
+    padding: 0;
+    left: 0;
+    width: 0;
+    height: 0;
   }
-
   .header__description-and-cv {
     padding-top: 0;
   }
