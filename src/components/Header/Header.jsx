@@ -74,15 +74,9 @@ const Header = () => {
         <h2>
             <span style={fontStyle}>FullStack</span> Developer
         </h2>
-        <br />
         <p>
-          Soy un desarrollador web joven enfocado en la obtención de resultados y
-          la resolución de problemas. Poseo experiencia desarrollando sitios
-          web con funcionalidad y diseño de calidad, mis cualidades incluyen mi
-          capacidad de aprendizaje, adaptación y mi capacidad de trabajar bien
-          bajo presión. También estoy estudiando ingeniería de sistemas y
-          computación en la Universidad de Cundinamarca, no dudes en revisar mis
-          proyectos y mi CV. ¡Desarrollemos juntos!
+          Bienvenido a mi portafolio. Soy un joven desarrollador web enfocado en la obtención de resultados y
+          la resolución de problemas, ofrezco soluciones innovadoras y efectivas. ¡No dudes en revisar mis proyectos y contactarme!
         </p>
       </div>
         <a

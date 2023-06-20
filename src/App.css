@@ -3,12 +3,16 @@
     --text: #ffffff;
     color: var(--text);
     background-color: var(--background-body);
+    padding: 0;
+    margin: 0;
 }
 .day-mode {
     --text: #191d2b;
     --background-body: #ffffff;
     color: var(--text);
     background-color: var(--background-body);
+    padding: 0;
+    margin: 0;
 }
 footer {
     width: 100%;

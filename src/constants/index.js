@@ -110,7 +110,7 @@ export const proyects = [
         id: 5,
         name: "Weather App",
         img: weatherAppImg,
-        description: "Proyecto personal que obtiene la ubicación del usuario y con ésa información realiza una peticióna una API para obtener los datos del clima de ésa ubicación en ése momento, implementa un modo oscuro.",
+        description: "Proyecto personal que obtiene la ubicación del usuario y con ésa información realiza una petición a una API para obtener los datos del clima de ésa ubicación en ése momento, implementa un modo oscuro.",
         github: "https://github.com/XxMigue03xX/Weather-App",
         link: "https://weatherapp-miguelgaravito.netlify.app/",
         isReact: true

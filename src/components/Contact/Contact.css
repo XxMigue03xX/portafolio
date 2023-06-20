@@ -41,6 +41,7 @@
 }
 .icon-container:hover {
     background: var(--orange-gradient);
+    color: white;
     transform: scale(1.1);
     box-shadow: 1px 1px 10px 1px var(--text);
 }
@@ -52,4 +53,50 @@
 }
 .contact__item h5 {
     font-size: 2rem;
+}
+@media (max-width: 900px) {
+    .contact-me {
+        margin-left: 0;
+        width: 100%;
+        gap: 2.5rem;
+    }
+    .contact-me h3 {
+        font-size: 4rem;
+        text-align: center;
+    }
+    .contact__items-container {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .contact__item {
+        width: 15rem;
+        height: 20rem;
+        display: flex;
+        justify-content: flex-start;
+        gap: 2rem;
+    }
+    .icon-container {
+        width: 10rem;
+        height: 10rem;
+        font-size: 6rem;
+    }
+    .contact__info-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;        
+    }
+    .contact__item h5 {
+        margin: 0;
+    }
+    .contact__item p {
+        max-width: 100%;
+        margin: 0;
+        word-wrap: break-word;
+    }
+    .icon-container:hover {
+        transform: none;
+    }
 }

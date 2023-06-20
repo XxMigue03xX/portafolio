@@ -29,8 +29,11 @@
     animation: pulse 1s;
 }
 .experience__item:hover .experience__h4 {
-    color: var(--text);
+    color: white;
     border-bottom: solid 2px rgba(255, 255, 255, 0.525);
+}
+.experience__item:hover .experience__p {
+    color: white;
 }
 .experience__item div {
     width: 50%;
@@ -72,5 +75,53 @@
 .info__p {
     width: 80%;
     font-size: 2.5rem;
+    line-height: 1.5;
     text-align: justify;
+}
+.info__p span {
+    color: var(--orange);
+}
+@media (max-width: 900px) { 
+    .about-me {
+        height: auto;
+        flex-direction: column-reverse;
+        gap: 2.5rem;
+    }
+    .my-info {
+        width: 100%;
+        height: auto;
+    }
+    .info__h3 {
+        font-size: 4rem;
+        margin: 3rem 0 1.5rem 0;
+    }
+    .info__p {
+        width: 80%;
+        font-size: 1.6rem;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    .experience {
+        width: 100%;
+        height: auto;
+        gap: 5rem;
+    }
+    .experience__item {
+        width: 20rem;
+        height: 10rem;
+        animation: pulse 6s infinite;
+    }
+    .experience__item:hover {
+        background: var(--orange-gradient);
+        animation: pulse 3s infinite;
+    }
+    .experience__item div {
+        width: 80%;
+    }
+    .experience__h4 {
+        font-size: 3rem;
+    }
+    .experience__p {
+        font-size: 1.6rem;
+    }
 }

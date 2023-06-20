@@ -39,20 +39,14 @@ const AboutMe = () => {
           </div>
           <div className='experience__item'>
             <div>
-              <h4 className="experience__h4">8</h4>
+              <h4 className="experience__h4">Muchos</h4>
               <p className='experience__p'>Proyectos completados</p>
             </div>
           </div>
         </div>
         <div className='my-info'>
           <h3 className='info__h3'>SOBRE <span>MI</span></h3>
-          <p className='info__p'>Soy un desarrollador web joven enfocado en la obtención de resultados y
-          la resolución de problemas. Poseo experiencia desarrollando sitios
-          web con funcionalidad y diseño de calidad, mis cualidades incluyen mi
-          capacidad de aprendizaje, adaptación y mi capacidad de trabajar bien
-          bajo presión. También estoy estudiando ingeniería de sistemas y
-          computación en la Universidad de Cundinamarca, no dudes en revisar mis
-          proyectos y mi CV. ¡Desarrollemos juntos!</p>
+          <p className='info__p'>Mi nombre es Miguel Ángel Garavito Camargo, soy un joven colombiano de 19 años que vive en la ciudad de <span>Fusagasugá</span>. Me apasiona la tecnología y he encontrado un gusto especial por la <span>programación</span>. Tengo experiencia en el desarrollo de sitios web con funcionalidad y diseño de <span>calidad</span>. Mi personalidad es la de una persona orientada al <span>éxito</span> y a la consecución de objetivos, me gusta mucho la lógica y estoy constantemente aprendiendo y actualizandome para ser mejor. ¡Desarrollemos Juntos!</p>
         </div>
     </section>
   )
