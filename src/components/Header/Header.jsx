@@ -82,7 +82,7 @@ const Header = () => {
         <a
           className="btn-cv"
           target="blank"
-          href="https://drive.google.com/file/d/1fQYQ_ryUFIiUMDKS3pyL0kwIzhftjhUw/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1UQ1uTG2lobF2SpMjZkoGDptanlGBODyh/view"
           download="cv"
         >
       <button className="header__btn-cv" style={btnStyle()}>
