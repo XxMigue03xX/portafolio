@@ -4,7 +4,7 @@ import ScrollReveal from "scrollreveal";
 import AOS from 'aos';
 import './Skills.css'
 
-const Skills = () => {
+const Skills = ({ language }) => {
 
   useEffect(() => {
     const sr = ScrollReveal();
@@ -26,18 +26,39 @@ const Skills = () => {
   return (
     <section id='skills' className='skills'>
         <div className='soft-skills'>
-          <h3>Habilidades <span>Blandas</span></h3>
+          {language ? (
+            <h3>Habilidades <span>Blandas</span></h3>
+          ) : (
+            <h3><span>Soft</span> Skills</h3>
+          )}
           <ul className='soft-skills__list'>
-            <li>Trabajo bajo presión</li>
-            <li>Trabajo en equipo</li>
-            <li>Comunicación asertiva</li>
-            <li>Productividad personal</li>
-            <li>Liderazgo</li>
-            <li>Adaptabilidad</li>
+            {language ? (
+              <>
+                <li>Trabajo bajo presión</li>
+                <li>Trabajo en equipo</li>
+                <li>Comunicación asertiva</li>
+                <li>Productividad personal</li>
+                <li>Liderazgo</li>
+                <li>Adaptabilidad</li>
+              </>
+            ) : (
+              <>
+                <li>Working under pressure</li>
+                <li>Teamwork</li>
+                <li>Assertive communication</li>
+                <li>Personal productivity</li>
+                <li>Leadership</li>
+                <li>Adaptability</li>
+              </>
+            )}
           </ul>
         </div>
         <div className='hard-skills'>
-        <h3>Habilidades <span>Duras</span></h3>
+        {language ? (
+            <h3>Habilidades <span>Duras</span></h3>
+          ) : (
+            <h3><span>Hard</span> Skills</h3>
+          )}
           <ul className='hard-skills__list'>
             {hardSkills.map(hardSkill => (
               <li key={hardSkill.id}>

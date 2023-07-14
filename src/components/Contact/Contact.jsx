@@ -3,7 +3,7 @@ import ScrollReveal from "scrollreveal";
 import AOS from 'aos';
 import "./Contact.css";
 
-const Contact = () => {
+const Contact = ({ language }) => {
 
   useEffect(() => {
     const sr = ScrollReveal();
@@ -18,7 +18,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="contact-me">
-      <h3>CONTACTAME</h3>
+      <h3>{language ? "CONTACTAME" : "CONTACT ME"}</h3>
       <div className="contact__items-container">
         <div className="contact__item">
           <a
@@ -30,7 +30,7 @@ const Contact = () => {
             </div>
           </a>
           <div className="contact__info-container">
-            <h5>Teléfono</h5>
+            <h5>{language ? "Teléfono" : "Phone"}</h5>
             <p>+57 3054079207</p>
           </div>
         </div>

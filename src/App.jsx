@@ -21,11 +21,11 @@ function App() {
         isSpanish={isSpanish}
         switchLang={() => setIsSpanish(!isSpanish)}
       />
-      <Header/>
-      <AboutMe/>
-      <Skills/>
-      <Proyects/>
-      <Contact/>
+      <Header language={isSpanish}/>
+      <AboutMe language={isSpanish}/>
+      <Skills language={isSpanish}/>
+      <Proyects language={isSpanish}/>
+      <Contact language={isSpanish}/>
       <footer>
         <p>
           Miguel Garavito in 2023 ©

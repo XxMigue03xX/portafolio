@@ -66,6 +66,7 @@ a {
         max-height: 30px;
         min-width: 30px;
         min-height: 30px;
+        padding: 0;
         font-size: 3rem;
         background-color: transparent;
         color: #191d2bcc;

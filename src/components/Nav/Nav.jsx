@@ -1,6 +1,6 @@
 import './Nav.css'
-// import spanishImg from "../../assets/img/spanish.svg"
-// import englishImg from "../../assets/img/english.svg"
+import spanishImg from "../../assets/img/spanish.svg"
+import englishImg from "../../assets/img/english.svg"
 
 const Nav = ({isDay, switchMode, isSpanish, switchLang}) => {
   return (
@@ -8,13 +8,13 @@ const Nav = ({isDay, switchMode, isSpanish, switchLang}) => {
       <button onClick={switchMode} className="btn mode">
         {isDay ? "🌙" : "☀️"}
       </button>
-      {/* <button onClick={switchLang} className="btn language">
+      <button onClick={switchLang} className="btn language">
         {isSpanish ? (
           <img src={spanishImg} alt="spanishImg" />
         ) : (
           <img src={englishImg} alt="englishImg" />
         )}
-      </button> */}
+      </button>
       <a href="#home">
         <button className="btn home">
           <i className="bx bxs-home"></i>

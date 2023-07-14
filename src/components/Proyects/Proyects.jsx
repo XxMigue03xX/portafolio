@@ -1,10 +1,10 @@
 import { useEffect } from "react";
-import ReactImg, { proyects } from "../../constants";
+import ReactImg, { proyectsEnglish, proyectsSpanish } from "../../constants";
 import ScrollReveal from "scrollreveal";
 import AOS from 'aos';
 import "./Proyects.css";
 
-const Proyects = () => {
+const Proyects = ({ language }) => {
 
     useEffect(() => {
         const sr = ScrollReveal();
@@ -20,38 +20,71 @@ const Proyects = () => {
   return (
     <section id="briefcase" className="proyects">
       <h3>
-        MIS <span>PROYECTOS</span>
+        {language ? "MIS" : "MY"} <span>{language ? "PROYECTOS" : "PROJECTS"}</span>
       </h3>
       <ul className="proyects-list">
-        {proyects.map((proyect) => (
-          <li key={proyect.id}>
-            <div className="proyect__img-container">
-              <img src={proyect.img} alt={proyect.name} />
-            </div>
-            <div className="proyect__info-container">
-              <div className="title-container">
-                {proyect.isReact && (
-                  <div className="react-container">
-                    <img src={ReactImg} alt="react" />
+        {language ? (
+            proyectsSpanish.map((proyect) => (
+              <li key={proyect.id}>
+                <div className="proyect__img-container">
+                  <img src={proyect.img} alt={proyect.name} />
+                </div>
+                <div className="proyect__info-container">
+                  <div className="title-container">
+                    {proyect.isReact && (
+                      <div className="react-container">
+                        <img src={ReactImg} alt="react" />
+                      </div>
+                    )}
+                    <h4>{proyect.name}</h4>
                   </div>
-                )}
-                <h4>{proyect.name}</h4>
+                  <p>{proyect.description}</p>
+                  <div className="proyect__btns-container">
+                    <a href={proyect.github} target="blank">
+                      <button>
+                        <i className="bx bxl-github"></i>
+                      </button>
+                    </a>
+                    <a href={proyect.link} target="blank">
+                      <button>
+                        <i className="bx bx-link-external"></i>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            ))
+        ):(
+          proyectsEnglish.map((proyect) => (
+            <li key={proyect.id}>
+              <div className="proyect__img-container">
+                <img src={proyect.img} alt={proyect.name} />
               </div>
-              <p>{proyect.description}</p>
-              <div className="proyect__btns-container">
-                <a href={proyect.github} target="blank">
-                  <button>
-                    <i className="bx bxl-github"></i>
-                  </button>
-                </a>
-                <a href={proyect.link} target="blank">
-                  <button>
-                    <i className="bx bx-link-external"></i>
-                  </button>
-                </a>
+              <div className="proyect__info-container">
+                <div className="title-container">
+                  {proyect.isReact && (
+                    <div className="react-container">
+                      <img src={ReactImg} alt="react" />
+                    </div>
+                  )}
+                  <h4>{proyect.name}</h4>
+                </div>
+                <p>{proyect.description}</p>
+                <div className="proyect__btns-container">
+                  <a href={proyect.github} target="blank">
+                    <button>
+                      <i className="bx bxl-github"></i>
+                    </button>
+                  </a>
+                  <a href={proyect.link} target="blank">
+                    <button>
+                      <i className="bx bx-link-external"></i>
+                    </button>
+                  </a>
+                </div>
               </div>
-            </div>
-          </li>
+            </li>
+          )
         ))}
       </ul>
     </section>

@@ -4,7 +4,7 @@ import ScrollReveal from "scrollreveal";
 import AOS from "aos";
 import "./Header.css";
 
-const Header = () => {
+const Header = ({ language }) => {
     const [isHovered, setIsHovered] = useState(false);
 
     const handleHover = (hovered) => {
@@ -67,7 +67,9 @@ const Header = () => {
       <div className="header__description-and-cv">
       <div className="description">
         <h1>
-          Hola, mi nombre es
+          {
+            language ? "Hola, mi nombre es" : "Hello, i am" 
+          }
           <br />
           <span style={fontStyle}>Miguel Garavito</span>
         </h1>
@@ -75,8 +77,12 @@ const Header = () => {
             <span style={fontStyle}>FullStack</span> Developer
         </h2>
         <p>
-          Bienvenido a mi portafolio. Soy un joven desarrollador web enfocado en la obtención de resultados y
-          la resolución de problemas, ofrezco soluciones innovadoras y efectivas. ¡No dudes en revisar mis proyectos y contactarme!
+          {
+            language ? `Bienvenido a mi portafolio. Soy un joven desarrollador web enfocado en la obtención de resultados y
+            la resolución de problemas, ofrezco soluciones innovadoras y efectivas. ¡No dudes en revisar mis proyectos y contactarme!` : `Welcome to my portfolio. I'm a young web developer focused on getting results and solving problems, I offer innovative and effective solutions.
+            Don't hesitate to check my projects and contact me!`
+          }
+          
         </p>
       </div>
         <a
@@ -86,7 +92,9 @@ const Header = () => {
           download="cv"
         >
       <button className="header__btn-cv" style={btnStyle()}>
-          <strong>Descargar CV</strong>
+          <strong>{
+            language ? "Descargar CV" : "Download CV"
+          }</strong>
           <i className='bx bx-down-arrow-circle' ></i>
       </button>
         </a>

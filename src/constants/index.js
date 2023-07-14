@@ -69,7 +69,7 @@ export const hardSkills = [
     }
 ];
 
-export const proyects = [
+export const proyectsSpanish = [
     {
         id: 1,
         name: "E-Commerce React",
@@ -134,5 +134,73 @@ export const proyects = [
         isReact: false
     },
 ]
+
+export const proyectsEnglish = [
+    {
+        id: 1,
+        name: "E-Commerce React",
+        img: eCommerceReactImg,
+        description: "Personal project that simulates all the operations of an e-commerce, makes requests to an API to get the products, login, cart management and creation of shopping records.",
+        github: "https://github.com/XxMigue03xX/ecommerce-react",
+        link: "https://ecommerce-react-miguelgaravito.netlify.app/",
+        isReact: true
+    },
+    {
+        id: 2,
+        name: "PokeApp",
+        img: pokeAppImg,
+        description: "Personal project that simulates the operation of a pokedex, consuming the PokeAPI data to display all pokemon, implements a search and filtering system by type.",
+        github: "https://github.com/XxMigue03xX/PokeApp",
+        link: "https://pokeapp-miguelgaravito.netlify.app/",
+        isReact: true
+    },
+    {
+        id: 3,
+        name: "Users CRUD",
+        img: usersCRUDImg,
+        description: "Personal project that provides all the functionality of a user manager, uses an API to which HTTP requests are made that allow users to create, get, update and delete users.",
+        github: "https://github.com/XxMigue03xX/Users-CRUD",
+        link: "https://users-crud-miguelgaravito.netlify.app/",
+        isReact: true
+    },
+    {
+        id: 4,
+        name: "Rick and Morty",
+        img: rickAndMortyImg,
+        description: "Personal project that displays rick and morty characters, fetches them from an API and sorts them by dimension, implements pagination and a search by ID system.",
+        github: "https://github.com/XxMigue03xX/RickAndMorty",
+        link: "https://rickandmorty-miguelgaravito.netlify.app/",
+        isReact: true
+    },
+    {
+        id: 5,
+        name: "WeatherApp",
+        img: weatherAppImg,
+        description: "Personal project that gets the user's location and with that information makes a request to an API to get the weather data for that location at that time, implements a dark mode.",
+        github: "https://github.com/XxMigue03xX/Weather-App",
+        link: "https://weatherapp-miguelgaravito.netlify.app/",
+        isReact: true
+    },
+    {
+        id: 6,
+        name: "Infogalax",
+        img: infogalaxImg,
+        description: "First personal project done in React, this project displays data about the space, when the button is pressed, the data and the background change to random ones.",
+        github: "https://github.com/XxMigue03xX/Infogalax",
+        link: "https://infogalax-miguelgaravito.netlify.app/",
+        isReact: true
+    },
+    {
+        id: 7,
+        name: "E-Commerce",
+        img: eCommerceVanillaImg,
+        description: "Personal project that simulates a basic e-commerce, makes requests to an API to get the products and implements a simple shopping cart, it was made using HTML, Javascript and CSS.",
+        github: "https://github.com/XxMigue03xX/E-Commerce",
+        link: "https://e-commerce-miguelgaravito.netlify.app/",
+        isReact: false
+    },
+];
+
+
 
 export default ReactImg;
