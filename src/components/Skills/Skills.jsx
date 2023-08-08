@@ -55,9 +55,9 @@ const Skills = ({ language }) => {
         </div>
         <div className='hard-skills'>
         {language ? (
-            <h3>Habilidades <span>Duras</span></h3>
+            <h3>Habilidades <span>Tecnológicas</span></h3>
           ) : (
-            <h3><span>Hard</span> Skills</h3>
+            <h3><span>Tech</span> Skills</h3>
           )}
           <ul className='hard-skills__list'>
             {hardSkills.map(hardSkill => (
