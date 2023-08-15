@@ -88,7 +88,7 @@ const Header = ({ language }) => {
         <a
           className="btn-cv"
           target="blank"
-          href="https://drive.google.com/file/d/1UQ1uTG2lobF2SpMjZkoGDptanlGBODyh/view"
+          href="https://drive.google.com/file/d/1zf5n0EdF-Gm7viPmQFivgKqn6gOs9AJb/view"
           download="cv"
         >
       <button className="header__btn-cv" style={btnStyle()}>
