@@ -8,6 +8,7 @@ import ReactRouterImg from "../assets/img/hardskills/react-router.png"
 import ReduxImg from "../assets/img/hardskills/redux.svg"
 import NodeJSImg from "../assets/img/hardskills/nodejs.svg"
 import EnglishImg from "../assets/img/hardskills/englishflag.jpg"
+import ScrumImg from "../assets/img/hardskills/scrum.png"
 import eCommerceReactImg from "../assets/img/proyects/e-commerce-react.png"
 import pokeAppImg from "../assets/img/proyects/pokeapp.png"
 import usersCRUDImg from "../assets/img/proyects/users-crud.png"
@@ -15,63 +16,76 @@ import rickAndMortyImg from "../assets/img/proyects/rickandmorty.png"
 import weatherAppImg from "../assets/img/proyects/weatherapp2.png"
 import infogalaxImg from "../assets/img/proyects/infogalax.png"
 import eCommerceVanillaImg from "../assets/img/proyects/e-commerce-vanilla.png"
+import normativasUCundinamarcaImg from "../assets/img/proyects/normativasUCundinamarca.png"
 
 export const hardSkills = [
     {
-        id: 1,
         name: "JavaScript",
+        className: "JSImg",
         img: JSImg,
     },
     {
-        id: 2,
         name: "HTML",
+        className: "HTMLImg",
         img: HTMLImg,
     },
     {
-        id: 3,
         name: "CSS",
+        className: "CSSImg",
         img: CSSImg,
     },
     {
-        id: 4,
         name: "Git",
+        className: "GitImg",
         img: GitImg,
     },
     {
-        id: 5,
         name: "Github",
+        className: "GithubImg",
         img: GithubImg,
     },
     {
-        id: 6,
         name: "React",
+        className: "ReactImg",
         img: ReactImg,
     },
     {
-        id: 7,
         name: "React Router",
+        className: "ReactRouterImg",
         img: ReactRouterImg,
     },
     {
-        id: 8,
         name: "Redux",
+        className: "ReduxImg",
         img: ReduxImg,
     },
     {
-        id: 9,
         name: "Node JS",
+        className: "NodeJSImg",
         img: NodeJSImg,
     },
     {
-        id: 10,
         name: "English C1",
+        className: "EnglishImg",
         img: EnglishImg,
+    },
+    {
+        name: "Scrum Master",
+        className: "ScrumImg",
+        img: ScrumImg,
     }
 ];
 
 export const proyectsSpanish = [
     {
-        id: 1,
+        name: "Normativas UCundinamarca",
+        img: normativasUCundinamarcaImg,
+        description: "Proyecto realizado en conjunto con el fin de desarrollar una página para informar a la comunidad universitaria sobre el reglamento estudiantil y las politicas de gratuidad.",
+        github: "https://github.com/SebasCastillo18/Proyecto-software",
+        link: "https://normativasucundinamarca.netlify.app/",
+        isReact: true
+    },
+    {
         name: "E-Commerce React",
         img: eCommerceReactImg,
         description: "Proyecto personal que simula todas las operaciones de un e-commerce, realiza peticiones a una API para obtener los productos, iniciar sesión, manejo del carrito y creación de registros de compras.",
@@ -80,7 +94,6 @@ export const proyectsSpanish = [
         isReact: true
     },
     {
-        id: 2,
         name: "PokeApp",
         img: pokeAppImg,
         description: "Proyecto personal que simula el funcionamiento de una pokedex, consumiendo los datos de la PokeAPI para mostrar todos los pokemones, implementa un sistema de busqueda y filtrado por tipo.",
@@ -89,7 +102,6 @@ export const proyectsSpanish = [
         isReact: true
     },
     {
-        id: 3,
         name: "Users CRUD",
         img: usersCRUDImg,
         description: "Proyecto personal que brinda toda la funcionalidad de un gestor de usuarios, utiliza una API a la que se realizan las peticiones HTTP que permiten crear, obtener, actualizar y eliminar usuarios.",
@@ -98,7 +110,6 @@ export const proyectsSpanish = [
         isReact: true
     },
     {
-        id: 4,
         name: "Rick and Morty",
         img: rickAndMortyImg,
         description: "Proyecto personal que muestra a los personajes de rick and morty, los obtiene de una API y los clasifica por dimensión, implementa paginación y un sistema de búsqueda por ID.",
@@ -107,7 +118,6 @@ export const proyectsSpanish = [
         isReact: true
     },
     {
-        id: 5,
         name: "Weather App",
         img: weatherAppImg,
         description: "Proyecto personal que obtiene la ubicación del usuario y con ésa información realiza una petición a una API para obtener los datos del clima de ésa ubicación en ése momento, implementa un modo oscuro.",
@@ -116,7 +126,6 @@ export const proyectsSpanish = [
         isReact: true
     },
     {
-        id: 6,
         name: "Infogalax",
         img: infogalaxImg,
         description: "Primer proyecto personal realizado en React, este proyecto muestra datos sobre el espacio, al oprimir el botón, el dato y el fondo de pantalla cambian por otros aleatorios.",
@@ -125,7 +134,6 @@ export const proyectsSpanish = [
         isReact: true
     },
     {
-        id: 7,
         name: "E-Commerce",
         img: eCommerceVanillaImg,
         description: "Proyecto personal que simula un e-commerce básico, realiza peticiones a una API para obtener los productos e implementa un carrito de compras sencillo, fue realizado usando HTML, Javascript y CSS.",
@@ -137,7 +145,14 @@ export const proyectsSpanish = [
 
 export const proyectsEnglish = [
     {
-        id: 1,
+        name: "UCundinamarca Regulations",
+        img: normativasUCundinamarcaImg,
+        description: "Joint project to develop a web page to inform the university community about student regulations and free policies.",
+        github: "https://github.com/SebasCastillo18/Proyecto-software",
+        link: "https://normativasucundinamarca.netlify.app/",
+        isReact: true
+    },
+    {
         name: "E-Commerce React",
         img: eCommerceReactImg,
         description: "Personal project that simulates all the operations of an e-commerce, makes requests to an API to get the products, login, cart management and creation of shopping records.",
@@ -146,7 +161,6 @@ export const proyectsEnglish = [
         isReact: true
     },
     {
-        id: 2,
         name: "PokeApp",
         img: pokeAppImg,
         description: "Personal project that simulates the operation of a pokedex, consuming the PokeAPI data to display all pokemon, implements a search and filtering system by type.",
@@ -155,7 +169,6 @@ export const proyectsEnglish = [
         isReact: true
     },
     {
-        id: 3,
         name: "Users CRUD",
         img: usersCRUDImg,
         description: "Personal project that provides all the functionality of a user manager, uses an API to which HTTP requests are made that allow users to create, get, update and delete users.",
@@ -164,7 +177,6 @@ export const proyectsEnglish = [
         isReact: true
     },
     {
-        id: 4,
         name: "Rick and Morty",
         img: rickAndMortyImg,
         description: "Personal project that displays rick and morty characters, fetches them from an API and sorts them by dimension, implements pagination and a search by ID system.",
@@ -173,7 +185,6 @@ export const proyectsEnglish = [
         isReact: true
     },
     {
-        id: 5,
         name: "WeatherApp",
         img: weatherAppImg,
         description: "Personal project that gets the user's location and with that information makes a request to an API to get the weather data for that location at that time, implements a dark mode.",
@@ -182,7 +193,6 @@ export const proyectsEnglish = [
         isReact: true
     },
     {
-        id: 6,
         name: "Infogalax",
         img: infogalaxImg,
         description: "First personal project done in React, this project displays data about the space, when the button is pressed, the data and the background change to random ones.",
@@ -191,7 +201,6 @@ export const proyectsEnglish = [
         isReact: true
     },
     {
-        id: 7,
         name: "E-Commerce",
         img: eCommerceVanillaImg,
         description: "Personal project that simulates a basic e-commerce, makes requests to an API to get the products and implements a simple shopping cart, it was made using HTML, Javascript and CSS.",

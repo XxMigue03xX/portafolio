@@ -60,13 +60,13 @@ const Skills = ({ language }) => {
             <h3><span>Tech</span> Skills</h3>
           )}
           <ul className='hard-skills__list'>
-            {hardSkills.map(hardSkill => (
-              <li key={hardSkill.id}>
+            {hardSkills.map((hardSkill, index) => (
+              <li key={index}>
                 <p>  
                   {hardSkill.name}
                 </p>
                 <div className="hard-skills__img-container">
-                  <img src={hardSkill.img} alt={hardSkill.name} />
+                  <img src={hardSkill.img} alt={hardSkill.name} className={hardSkill.className} />
                 </div>
               </li>
             ))}

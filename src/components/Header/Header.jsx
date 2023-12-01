@@ -87,7 +87,8 @@ const Header = ({ language }) => {
       </div>
         <a
           className="btn-cv"
-          target="blank"
+          target="_blank"
+          rel="noreferrer"
           href="https://drive.google.com/file/d/1zf5n0EdF-Gm7viPmQFivgKqn6gOs9AJb/view"
           download="cv"
         >

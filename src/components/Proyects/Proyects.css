@@ -85,9 +85,10 @@
 }
 .proyect__info-container h4 {
     margin: 0;
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--text);
     font-weight: bold;
+    text-align: center;
 }
 .proyect__info-container p {
     width: 80%;
@@ -144,7 +145,7 @@
         height: 13.7rem;
     }
     .proyect__info-container h4 {
-        font-size: 2.5rem;
+        font-size: 1.75rem;
     }
     .proyect__info-container p {
         width: 90%;

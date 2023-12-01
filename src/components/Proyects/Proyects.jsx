@@ -24,8 +24,8 @@ const Proyects = ({ language }) => {
       </h3>
       <ul className="proyects-list">
         {language ? (
-            proyectsSpanish.map((proyect) => (
-              <li key={proyect.id}>
+            proyectsSpanish.map((proyect, index) => (
+              <li key={index}>
                 <div className="proyect__img-container">
                   <img src={proyect.img} alt={proyect.name} />
                 </div>
@@ -40,12 +40,12 @@ const Proyects = ({ language }) => {
                   </div>
                   <p>{proyect.description}</p>
                   <div className="proyect__btns-container">
-                    <a href={proyect.github} target="blank">
+                    <a href={proyect.github} target="_blank" rel="noreferrer">
                       <button>
                         <i className="bx bxl-github"></i>
                       </button>
                     </a>
-                    <a href={proyect.link} target="blank">
+                    <a href={proyect.link} target="_blank" rel="noreferrer">
                       <button>
                         <i className="bx bx-link-external"></i>
                       </button>
@@ -55,8 +55,8 @@ const Proyects = ({ language }) => {
               </li>
             ))
         ):(
-          proyectsEnglish.map((proyect) => (
-            <li key={proyect.id}>
+          proyectsEnglish.map((proyect, index) => (
+            <li key={index}>
               <div className="proyect__img-container">
                 <img src={proyect.img} alt={proyect.name} />
               </div>
@@ -71,12 +71,12 @@ const Proyects = ({ language }) => {
                 </div>
                 <p>{proyect.description}</p>
                 <div className="proyect__btns-container">
-                  <a href={proyect.github} target="blank">
+                  <a href={proyect.github} target="_blank" rel="noreferrer">
                     <button>
                       <i className="bx bxl-github"></i>
                     </button>
                   </a>
-                  <a href={proyect.link} target="blank">
+                  <a href={proyect.link} target="_blank" rel="noreferrer">
                     <button>
                       <i className="bx bx-link-external"></i>
                     </button>

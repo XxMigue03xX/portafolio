@@ -23,7 +23,8 @@ const Contact = ({ language }) => {
         <div className="contact__item">
           <a
             href="https://wa.me/+573054079207?text=Hola,%20quiero%20contactarte"
-            target="blank"
+            target="_blank"
+            rel="noreferrer"
           >
             <div className="icon-container">
               <i className="bx bxs-phone"></i>
@@ -37,7 +38,8 @@ const Contact = ({ language }) => {
         <div className="contact__item">
           <a
             href="https://www.linkedin.com/in/miguel-%C3%A1ngel-garavito-camargo/"
-            target="blank"
+            target="_blank"
+            rel="noreferrer"
           >
             <div className="icon-container">
               <i className="bx bxl-linkedin-square"></i>
@@ -46,7 +48,7 @@ const Contact = ({ language }) => {
           <h5>Linkedin</h5>
         </div>
         <div className="contact__item">
-          <a href="https://github.com/XxMigue03xX" target="blank">
+          <a href="https://github.com/XxMigue03xX" target="_blank" rel="noreferrer">
             <div className="icon-container">
               <i className="bx bxl-github"></i>
             </div>
@@ -54,7 +56,7 @@ const Contact = ({ language }) => {
           <h5>Github</h5>
         </div>
         <div className="contact__item">
-          <a href="mailto:mgaravitocamargo@gmail.com" target="blank">
+          <a href="mailto:mgaravitocamargo@gmail.com" target="_blank" rel="noreferrer">
             <div className="icon-container">
               <i className="bx bx-envelope"></i>
             </div>
