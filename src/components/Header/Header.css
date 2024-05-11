@@ -44,7 +44,7 @@
   background-color: var(--background-body);
   transform: skew(15deg);
 }
-.header__description-and-cv {
+.header__contact-and-cv {
   height: 100%;
   width: 100%;
   padding-top: 1rem;
@@ -61,31 +61,62 @@ h2 {
   margin: 1rem;
   font-size: 5rem;
 }
-.description p {
-  margin: 1rem;
-  font-size: 2.2rem;
-  line-height: 1.5;
-  width: 500px;
-  text-align: justify;
+.header__btns-container {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.header__btn-cv {
+.btn-header {
   width: 300px;
   height: 40px;
   padding: 1rem;
   border-radius: 30px;
+  font-size: 2.5rem;
   cursor: pointer;
   border: none;
+  text-decoration: none;
   background-color: transparent;
-  font-size: 2.5rem;
-  animation: pulse 2s infinite;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  text-decoration: none;
+  animation: pulse 2s infinite;
+  transition: 0.25s;
   color: var(--text);
 }
-.header__btn-cv:hover {
+.phone-btn {
+  box-shadow: 1px 1px 2px 1px #66D367
+}
+.phone-btn:hover {
+  background: linear-gradient(45deg, #00ff04, #b5ffb7);
+  color: white;
+}
+.linkedin-btn {
+  box-shadow: 1px 1px 2px 1px #3466C2;
+}
+.linkedin-btn:hover {
+  background: linear-gradient(45deg, #095df8, #86a7e6);
+  color: white;
+}
+.github-btn {
+  box-shadow: 1px 1px 2px 1px #010409;
+}
+.github-btn:hover {
+  background: linear-gradient(45deg, #000000, #313131);
+  color: white;
+}
+.email-btn {
+  box-shadow: 1px 1px 2px 1px #E0402A;
+}
+.email-btn:hover {
+  background: linear-gradient(45deg, #de1f06, #ca6558);
+  color: white;
+}
+.cv-btn:hover {
   background: var(--orange-gradient);
   color: white;
 }
@@ -123,7 +154,7 @@ h2 {
     width: 0;
     height: 0;
   }
-  .header__description-and-cv {
+  .header__contact-and-cv {
     padding-top: 0;
   }
   .description {
@@ -138,14 +169,31 @@ h2 {
     font-size: 3.5rem;
     line-height: 1.5;
   }
-
-  .description p {
-    width: 90%;
-    font-size: 1.6rem;
+  .header__btns-container {
+    height: 150px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 2rem;
   }
-  .header__btn-cv {
-    width: 250px;
-    height: 50px;
-    font-size: 2rem;
+  .btn-header {
+    width: 150px;
+    height: 30px;
+    font-size: 1.6rem;
+    padding: 0;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
 }

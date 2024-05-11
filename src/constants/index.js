@@ -9,6 +9,8 @@ import ReduxImg from "../assets/img/hardskills/redux.svg"
 import NodeJSImg from "../assets/img/hardskills/nodejs.svg"
 import EnglishImg from "../assets/img/hardskills/englishflag.jpg"
 import ScrumImg from "../assets/img/hardskills/scrum.png"
+import PythonImg from "../assets/img/hardskills/python.svg"
+import OfficeImg from "../assets/img/hardskills/Office.svg"
 import eCommerceReactImg from "../assets/img/proyects/e-commerce-react.png"
 import pokeAppImg from "../assets/img/proyects/pokeapp.png"
 import usersCRUDImg from "../assets/img/proyects/users-crud.png"
@@ -73,6 +75,16 @@ export const hardSkills = [
         name: "Scrum Master",
         className: "ScrumImg",
         img: ScrumImg,
+    },
+    {
+        name: "Python",
+        className: "PythonImg",
+        img: PythonImg,
+    },
+    {
+        name: "Office",
+        className: "OfficeImg",
+        img: OfficeImg,
     }
 ];
 

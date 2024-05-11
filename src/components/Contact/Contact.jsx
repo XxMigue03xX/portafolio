@@ -48,7 +48,11 @@ const Contact = ({ language }) => {
           <h5>Linkedin</h5>
         </div>
         <div className="contact__item">
-          <a href="https://github.com/XxMigue03xX" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/XxMigue03xX"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="icon-container">
               <i className="bx bxl-github"></i>
             </div>

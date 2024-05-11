@@ -41,7 +41,7 @@ const AboutMe = ({ language }) => {
         <div className='experience'>
           <div className='experience__item'>
             <div>
-              <h4 className="experience__h4">+150</h4>
+              <h4 className="experience__h4">+200</h4>
               <p className='experience__p'>
                 {language ? "Horas de práctica" : "Practice hours"}
               </p>
@@ -49,7 +49,7 @@ const AboutMe = ({ language }) => {
           </div>
           <div className='experience__item'>
             <div>
-              <h4 className="experience__h4">+100</h4>
+              <h4 className="experience__h4">+150</h4>
               <p className='experience__p'>
                 {language ? "Horas teóricas" : "Theory hours"}
               </p>
@@ -57,7 +57,7 @@ const AboutMe = ({ language }) => {
           </div>
           <div className='experience__item'>
             <div>
-              <h4 className="experience__h4">+8</h4>
+              <h4 className="experience__h4">+10</h4>
               <p className='experience__p'>
                 {language ? "Proyectos completados" : "Completed projects"}
               </p>

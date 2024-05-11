@@ -25,6 +25,25 @@ const Skills = ({ language }) => {
 
   return (
     <section id='skills' className='skills'>
+        <div className='hard-skills'>
+        {language ? (
+            <h3>Habilidades <span>Tecnológicas</span></h3>
+          ) : (
+            <h3><span>Tech</span> Skills</h3>
+          )}
+          <ul className='hard-skills__list'>
+            {hardSkills.map((hardSkill, index) => (
+              <li key={index}>
+                <p>  
+                  {hardSkill.name}
+                </p>
+                <div className="hard-skills__img-container">
+                  <img src={hardSkill.img} alt={hardSkill.name} className={hardSkill.className} />
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
         <div className='soft-skills'>
           {language ? (
             <h3>Habilidades <span>Blandas</span></h3>
@@ -51,25 +70,6 @@ const Skills = ({ language }) => {
                 <li>Adaptability</li>
               </>
             )}
-          </ul>
-        </div>
-        <div className='hard-skills'>
-        {language ? (
-            <h3>Habilidades <span>Tecnológicas</span></h3>
-          ) : (
-            <h3><span>Tech</span> Skills</h3>
-          )}
-          <ul className='hard-skills__list'>
-            {hardSkills.map((hardSkill, index) => (
-              <li key={index}>
-                <p>  
-                  {hardSkill.name}
-                </p>
-                <div className="hard-skills__img-container">
-                  <img src={hardSkill.img} alt={hardSkill.name} className={hardSkill.className} />
-                </div>
-              </li>
-            ))}
           </ul>
         </div>
     </section>

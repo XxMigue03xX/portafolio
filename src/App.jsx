@@ -11,7 +11,7 @@ function App() {
   const [isDay, setisDay] = useState(false);
   const [isSpanish, setIsSpanish] = useState(true);
 
-  const themeClass = !isDay ? 'dark-mode' : 'day-mode';
+  const themeClass = isDay ? 'day-mode' : 'dark-mode';
 
   return (
     <article className={themeClass}>
