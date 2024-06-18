@@ -11,14 +11,15 @@ import EnglishImg from "../assets/img/hardskills/englishflag.jpg"
 import ScrumImg from "../assets/img/hardskills/scrum.png"
 import PythonImg from "../assets/img/hardskills/python.svg"
 import OfficeImg from "../assets/img/hardskills/Office.svg"
-import eCommerceReactImg from "../assets/img/proyects/e-commerce-react.png"
-import pokeAppImg from "../assets/img/proyects/pokeapp.png"
-import usersCRUDImg from "../assets/img/proyects/users-crud.png"
-import rickAndMortyImg from "../assets/img/proyects/rickandmorty.png"
-import weatherAppImg from "../assets/img/proyects/weatherapp2.png"
-import infogalaxImg from "../assets/img/proyects/infogalax.png"
-import eCommerceVanillaImg from "../assets/img/proyects/e-commerce-vanilla.png"
-import normativasUCundinamarcaImg from "../assets/img/proyects/normativasUCundinamarca.png"
+import eCommerceReactImg from "../assets/img/projects/e-commerce-react.png"
+import pokeAppImg from "../assets/img/projects/pokeapp.png"
+import usersCRUDImg from "../assets/img/projects/users-crud.png"
+import rickAndMortyImg from "../assets/img/projects/rickandmorty.png"
+import weatherAppImg from "../assets/img/projects/weatherapp2.png"
+import infogalaxImg from "../assets/img/projects/infogalax.png"
+import eCommerceVanillaImg from "../assets/img/projects/e-commerce-vanilla.png"
+import normativasUCundinamarcaImg from "../assets/img/projects/normativasUCundinamarca.png"
+import escalanteCafeImg from "../assets/img/projects/escalante-cafe.png"
 
 export const hardSkills = [
     {
@@ -88,19 +89,27 @@ export const hardSkills = [
     }
 ];
 
-export const proyectsSpanish = [
+export const projectsSpanish = [
+    {
+        name: "Escalante Café",
+        img: escalanteCafeImg,
+        description: "projecto desarrollado para el emprendimiento Escalante Café, con el objetivo de promocionar sus productos al público y aumentar su visibilidad en el mercado.",
+        github: "https://github.com/XxMigue03xX/Escalante-Cafe",
+        link: "https://escalantecafe.netlify.app/",
+        isReact: true
+    },
     {
         name: "Normativas UCundinamarca",
         img: normativasUCundinamarcaImg,
-        description: "Proyecto realizado en conjunto con el fin de desarrollar una página para informar a la comunidad universitaria sobre el reglamento estudiantil y las politicas de gratuidad.",
-        github: "https://github.com/SebasCastillo18/Proyecto-software",
+        description: "projecto realizado en conjunto con el fin de desarrollar una página para informar a la comunidad universitaria sobre el reglamento estudiantil y las politicas de gratuidad.",
+        github: "https://github.com/SebasCastillo18/projecto-software",
         link: "https://normativasucundinamarca.netlify.app/",
         isReact: true
     },
     {
         name: "E-Commerce React",
         img: eCommerceReactImg,
-        description: "Proyecto personal que simula todas las operaciones de un e-commerce, realiza peticiones a una API para obtener los productos, iniciar sesión, manejo del carrito y creación de registros de compras.",
+        description: "projecto personal que simula todas las operaciones de un e-commerce, realiza peticiones a una API para obtener los productos, iniciar sesión, manejo del carrito y creación de registros de compras.",
         github: "https://github.com/XxMigue03xX/ecommerce-react",
         link: "https://ecommerce-react-miguelgaravito.netlify.app/",
         isReact: true
@@ -108,7 +117,7 @@ export const proyectsSpanish = [
     {
         name: "PokeApp",
         img: pokeAppImg,
-        description: "Proyecto personal que simula el funcionamiento de una pokedex, consumiendo los datos de la PokeAPI para mostrar todos los pokemones, implementa un sistema de busqueda y filtrado por tipo.",
+        description: "projecto personal que simula el funcionamiento de una pokedex, consumiendo los datos de la PokeAPI para mostrar todos los pokemones, implementa un sistema de busqueda y filtrado por tipo.",
         github: "https://github.com/XxMigue03xX/PokeApp",
         link: "https://pokeapp-miguelgaravito.netlify.app/",
         isReact: true
@@ -116,7 +125,7 @@ export const proyectsSpanish = [
     {
         name: "Users CRUD",
         img: usersCRUDImg,
-        description: "Proyecto personal que brinda toda la funcionalidad de un gestor de usuarios, utiliza una API a la que se realizan las peticiones HTTP que permiten crear, obtener, actualizar y eliminar usuarios.",
+        description: "projecto personal que brinda toda la funcionalidad de un gestor de usuarios, utiliza una API a la que se realizan las peticiones HTTP que permiten crear, obtener, actualizar y eliminar usuarios.",
         github: "https://github.com/XxMigue03xX/Users-CRUD",
         link: "https://users-crud-miguelgaravito.netlify.app/",
         isReact: true
@@ -124,7 +133,7 @@ export const proyectsSpanish = [
     {
         name: "Rick and Morty",
         img: rickAndMortyImg,
-        description: "Proyecto personal que muestra a los personajes de rick and morty, los obtiene de una API y los clasifica por dimensión, implementa paginación y un sistema de búsqueda por ID.",
+        description: "projecto personal que muestra a los personajes de rick and morty, los obtiene de una API y los clasifica por dimensión, implementa paginación y un sistema de búsqueda por ID.",
         github: "https://github.com/XxMigue03xX/RickAndMorty",
         link: "https://rickandmorty-miguelgaravito.netlify.app/",
         isReact: true
@@ -132,7 +141,7 @@ export const proyectsSpanish = [
     {
         name: "Weather App",
         img: weatherAppImg,
-        description: "Proyecto personal que obtiene la ubicación del usuario y con ésa información realiza una petición a una API para obtener los datos del clima de ésa ubicación en ése momento, implementa un modo oscuro.",
+        description: "projecto personal que obtiene la ubicación del usuario y con ésa información realiza una petición a una API para obtener los datos del clima de ésa ubicación en ése momento, implementa un modo oscuro.",
         github: "https://github.com/XxMigue03xX/Weather-App",
         link: "https://weatherapp-miguelgaravito.netlify.app/",
         isReact: true
@@ -140,7 +149,7 @@ export const proyectsSpanish = [
     {
         name: "Infogalax",
         img: infogalaxImg,
-        description: "Primer proyecto personal realizado en React, este proyecto muestra datos sobre el espacio, al oprimir el botón, el dato y el fondo de pantalla cambian por otros aleatorios.",
+        description: "Primer projecto personal realizado en React, este projecto muestra datos sobre el espacio, al oprimir el botón, el dato y el fondo de pantalla cambian por otros aleatorios.",
         github: "https://github.com/XxMigue03xX/Infogalax",
         link: "https://infogalax-miguelgaravito.netlify.app/",
         isReact: true
@@ -148,19 +157,27 @@ export const proyectsSpanish = [
     {
         name: "E-Commerce",
         img: eCommerceVanillaImg,
-        description: "Proyecto personal que simula un e-commerce básico, realiza peticiones a una API para obtener los productos e implementa un carrito de compras sencillo, fue realizado usando HTML, Javascript y CSS.",
+        description: "projecto personal que simula un e-commerce básico, realiza peticiones a una API para obtener los productos e implementa un carrito de compras sencillo, fue realizado usando HTML, Javascript y CSS.",
         github: "https://github.com/XxMigue03xX/E-Commerce",
         link: "https://e-commerce-miguelgaravito.netlify.app/",
         isReact: false
     },
 ]
 
-export const proyectsEnglish = [
+export const projectsEnglish = [
+    {
+        name: "Escalante Cafe",
+        img: escalanteCafeImg,
+        description: "Project developed for the startup Escalante Café, aimed at promoting its products to the public and increasing its market visibility.",
+        github: "https://github.com/XxMigue03xX/Escalante-Cafe",
+        link: "https://escalantecafe.netlify.app/",
+        isReact: true
+    },
     {
         name: "UCundinamarca Regulations",
         img: normativasUCundinamarcaImg,
         description: "Joint project to develop a web page to inform the university community about student regulations and free policies.",
-        github: "https://github.com/SebasCastillo18/Proyecto-software",
+        github: "https://github.com/SebasCastillo18/projecto-software",
         link: "https://normativasucundinamarca.netlify.app/",
         isReact: true
     },

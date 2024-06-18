@@ -1,4 +1,4 @@
-.proyects {
+.projects {
     margin-top: 5rem;
     margin-left: 7rem;
     width: calc(100%-7rem);
@@ -8,16 +8,16 @@
     align-items: center;
     gap: 5rem;
 }
-.proyects h3 {
+.projects h3 {
     margin: 0;
     padding: 0;
     font-size: 6rem;
     color: var(--text);
 }
-.proyects h3 span {
+.projects h3 span {
     color: var(--orange);
 }
-.proyects-list {
+.projects-list {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -28,7 +28,7 @@
     align-items: center;
     gap: 5rem;
 }
-.proyects-list li {
+.projects-list li {
     height: 45rem;
     display: flex;
     flex-direction: column;
@@ -38,10 +38,10 @@
     box-shadow: 1px 1px 10px 1px var(--orange);
     transition: 0.25s;
 }
-.proyects-list li:hover {
+.projects-list li:hover {
     transform: scale(1.05);
 }
-.proyect__img-container {
+.project__img-container {
     width: 100%;
     height: 16rem;
     display: flex;
@@ -49,12 +49,12 @@
     align-items: flex-start;
     border-bottom: solid 3px var(--orange);
 }
-.proyect__img-container img {
+.project__img-container img {
     width: 100%;
     height: 100%;
     border-radius: 10px 10px 0 0;
 }
-.proyect__info-container {
+.project__info-container {
     position: relative;
     width: 100%;
     height: 100%;
@@ -83,21 +83,21 @@
     max-width: 100%;
     max-height: 100%;
 }
-.proyect__info-container h4 {
+.project__info-container h4 {
     margin: 0;
     font-size: 2rem;
     color: var(--text);
     font-weight: bold;
     text-align: center;
 }
-.proyect__info-container p {
+.project__info-container p {
     width: 80%;
     margin: 0;
     text-align: justify;
     line-height: 1.25;
     font-size: 1.8rem;
 }
-.proyect__btns-container {
+.project__btns-container {
     position: absolute;
     bottom: 1rem;
     width: 100%;
@@ -106,7 +106,7 @@
     align-items: center;
     gap: 2rem;
 }
-.proyect__btns-container button {
+.project__btns-container button {
     width: 5rem;
     height: 5rem;
     font-size: 4rem;
@@ -120,34 +120,34 @@
     color: var(--background-body);
     transition: 0.25s;
 }
-.proyect__btns-container button:hover {
+.project__btns-container button:hover {
     background-color: transparent;
     color: var(--text);
     border: solid 1px var(--text);
     transform: scale(1.1);
 }
 @media (max-width: 900px) {
-    .proyects {
+    .projects {
         margin-left: 0;
         width: 100%;
         gap: 5rem;
     }
-    .proyects h3 {
+    .projects h3 {
         font-size: 4rem;
         text-align: center;
     }
-    .proyects-list {
+    .projects-list {
         width: 90%;
         grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
         gap: 5rem;
     }
-    .proyect__img-container {
+    .project__img-container {
         height: 13.7rem;
     }
-    .proyect__info-container h4 {
+    .project__info-container h4 {
         font-size: 1.75rem;
     }
-    .proyect__info-container p {
+    .project__info-container p {
         width: 90%;
         line-height: 1.5;
         font-size: 1.6rem;

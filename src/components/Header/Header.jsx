@@ -19,7 +19,7 @@ const Header = ({ language }) => {
 
   const borderStyle = () => {
     const borderColor = isHovered ? "var(--orange)" : "var(--blue)";
-    return { "box-shadow": `5px 5px 10px 2px ${borderColor}` };
+    return { "boxShadow": `5px 5px 10px 2px ${borderColor}` };
   };
 
   const fontStyle = {
@@ -28,7 +28,7 @@ const Header = ({ language }) => {
 
   const btnStyle = () => {
     const btnColor = isHovered ? "var(--blue)" : "var(--orange)";
-    return { "box-shadow": `1px 1px 2px 1px ${btnColor}` };
+    return { "boxShadow": `1px 1px 2px 1px ${btnColor}` };
   };
 
   const redirectTo = (site) => {
