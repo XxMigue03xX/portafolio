@@ -93,7 +93,7 @@ export const projectsSpanish = [
     {
         name: "Escalante Café",
         img: escalanteCafeImg,
-        description: "projecto desarrollado para el emprendimiento Escalante Café, con el objetivo de promocionar sus productos al público y aumentar su visibilidad en el mercado.",
+        description: "Proyecto desarrollado para el emprendimiento Escalante Café, con el objetivo de promocionar sus productos al público y aumentar su visibilidad en el mercado.",
         github: "https://github.com/XxMigue03xX/Escalante-Cafe",
         link: "https://escalantecafe.netlify.app/",
         isReact: true
@@ -101,7 +101,7 @@ export const projectsSpanish = [
     {
         name: "Normativas UCundinamarca",
         img: normativasUCundinamarcaImg,
-        description: "projecto realizado en conjunto con el fin de desarrollar una página para informar a la comunidad universitaria sobre el reglamento estudiantil y las politicas de gratuidad.",
+        description: "Proyecto realizado en conjunto con el fin de desarrollar una página para informar a la comunidad universitaria sobre el reglamento estudiantil y las politicas de gratuidad.",
         github: "https://github.com/SebasCastillo18/projecto-software",
         link: "https://normativasucundinamarca.netlify.app/",
         isReact: true
@@ -109,7 +109,7 @@ export const projectsSpanish = [
     {
         name: "E-Commerce React",
         img: eCommerceReactImg,
-        description: "projecto personal que simula todas las operaciones de un e-commerce, realiza peticiones a una API para obtener los productos, iniciar sesión, manejo del carrito y creación de registros de compras.",
+        description: "Proyecto personal que simula todas las operaciones de un e-commerce, realiza peticiones a una API para obtener los productos, iniciar sesión, manejo del carrito y creación de registros de compras.",
         github: "https://github.com/XxMigue03xX/ecommerce-react",
         link: "https://ecommerce-react-miguelgaravito.netlify.app/",
         isReact: true
@@ -117,7 +117,7 @@ export const projectsSpanish = [
     {
         name: "PokeApp",
         img: pokeAppImg,
-        description: "projecto personal que simula el funcionamiento de una pokedex, consumiendo los datos de la PokeAPI para mostrar todos los pokemones, implementa un sistema de busqueda y filtrado por tipo.",
+        description: "Proyecto personal que simula el funcionamiento de una pokedex, consumiendo los datos de la PokeAPI para mostrar todos los pokemones, implementa un sistema de busqueda y filtrado por tipo.",
         github: "https://github.com/XxMigue03xX/PokeApp",
         link: "https://pokeapp-miguelgaravito.netlify.app/",
         isReact: true
@@ -125,7 +125,7 @@ export const projectsSpanish = [
     {
         name: "Users CRUD",
         img: usersCRUDImg,
-        description: "projecto personal que brinda toda la funcionalidad de un gestor de usuarios, utiliza una API a la que se realizan las peticiones HTTP que permiten crear, obtener, actualizar y eliminar usuarios.",
+        description: "Proyecto personal que brinda toda la funcionalidad de un gestor de usuarios, utiliza una API a la que se realizan las peticiones HTTP que permiten crear, obtener, actualizar y eliminar usuarios.",
         github: "https://github.com/XxMigue03xX/Users-CRUD",
         link: "https://users-crud-miguelgaravito.netlify.app/",
         isReact: true
@@ -133,7 +133,7 @@ export const projectsSpanish = [
     {
         name: "Rick and Morty",
         img: rickAndMortyImg,
-        description: "projecto personal que muestra a los personajes de rick and morty, los obtiene de una API y los clasifica por dimensión, implementa paginación y un sistema de búsqueda por ID.",
+        description: "Proyecto personal que muestra a los personajes de rick and morty, los obtiene de una API y los clasifica por dimensión, implementa paginación y un sistema de búsqueda por ID.",
         github: "https://github.com/XxMigue03xX/RickAndMorty",
         link: "https://rickandmorty-miguelgaravito.netlify.app/",
         isReact: true
@@ -141,7 +141,7 @@ export const projectsSpanish = [
     {
         name: "Weather App",
         img: weatherAppImg,
-        description: "projecto personal que obtiene la ubicación del usuario y con ésa información realiza una petición a una API para obtener los datos del clima de ésa ubicación en ése momento, implementa un modo oscuro.",
+        description: "Proyecto personal que obtiene la ubicación del usuario y con ésa información realiza una petición a una API para obtener los datos del clima de ésa ubicación en ése momento, implementa un modo oscuro.",
         github: "https://github.com/XxMigue03xX/Weather-App",
         link: "https://weatherapp-miguelgaravito.netlify.app/",
         isReact: true
@@ -149,7 +149,7 @@ export const projectsSpanish = [
     {
         name: "Infogalax",
         img: infogalaxImg,
-        description: "Primer projecto personal realizado en React, este projecto muestra datos sobre el espacio, al oprimir el botón, el dato y el fondo de pantalla cambian por otros aleatorios.",
+        description: "Primer proyecto personal realizado en React, este projecto muestra datos sobre el espacio, al oprimir el botón, el dato y el fondo de pantalla cambian por otros aleatorios.",
         github: "https://github.com/XxMigue03xX/Infogalax",
         link: "https://infogalax-miguelgaravito.netlify.app/",
         isReact: true
@@ -157,7 +157,7 @@ export const projectsSpanish = [
     {
         name: "E-Commerce",
         img: eCommerceVanillaImg,
-        description: "projecto personal que simula un e-commerce básico, realiza peticiones a una API para obtener los productos e implementa un carrito de compras sencillo, fue realizado usando HTML, Javascript y CSS.",
+        description: "Proyecto personal que simula un e-commerce básico, realiza peticiones a una API para obtener los productos e implementa un carrito de compras sencillo, fue realizado usando HTML, Javascript y CSS.",
         github: "https://github.com/XxMigue03xX/E-Commerce",
         link: "https://e-commerce-miguelgaravito.netlify.app/",
         isReact: false

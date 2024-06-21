@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import ReactImg, { projectsEnglish, projectsSpanish } from "../../constants";
 import ScrollReveal from "scrollreveal";
 import AOS from 'aos';
-import "./projects.css";
+import "./Projects.css";
 
 const Projects = ({ language }) => {
 
