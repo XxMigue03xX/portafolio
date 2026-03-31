@@ -60,14 +60,14 @@ const Contact = ({ language }) => {
           <h5>Github</h5>
         </div>
         <div className="contact__item">
-          <a href="mailto:mgaravitocamargo@gmail.com" target="_blank" rel="noreferrer">
+          <a href="mailto:miguel.garavito.camargo@gmail.com" target="_blank" rel="noreferrer">
             <div className="icon-container">
               <i className="bx bx-envelope"></i>
             </div>
           </a>
           <div className="contact__info-container">
             <h5>Email</h5>
-            <p>mgaravitocamargo@gmail.com</p>
+            <p>miguel.garavito.camargo@gmail.com</p>
           </div>
         </div>
       </div>

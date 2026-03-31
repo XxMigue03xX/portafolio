@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import ReactImg, { projectsEnglish, projectsSpanish } from "../../constants";
+import { projectsEnglish, projectsSpanish } from "../../constants";
 import ScrollReveal from "scrollreveal";
 import AOS from 'aos';
 import "./Projects.css";
@@ -20,72 +20,79 @@ const Projects = ({ language }) => {
   return (
     <section id="briefcase" className="projects">
       <h3>
-        {language ? "MIS" : "MY"} <span>{language ? "PROYECTOS" : "PROJECTS"}</span>
+        {language ? "MIS" : "MY"}{" "}
+        <span>{language ? "PROYECTOS" : "PROJECTS"}</span>
       </h3>
       <ul className="projects-list">
-        {language ? (
-            projectsSpanish.map((project, index) => (
-              <li key={index}>
+        {language
+          ? projectsSpanish.map((project, index) => (
+              <li key={index} className="project">
                 <div className="project__img-container">
                   <img src={project.img} alt={project.name} />
                 </div>
                 <div className="project__info-container">
                   <div className="title-container">
-                    {project.isReact && (
-                      <div className="react-container">
-                        <img src={ReactImg} alt="react" />
-                      </div>
-                    )}
                     <h4>{project.name}</h4>
                   </div>
                   <p>{project.description}</p>
+                  <ul className="project__stack-list">
+                  {project.stack.map((item, index) => (
+                    <li key={index} className="project__stack-item">{item}</li>
+                  ))}
+                  </ul>
                   <div className="project__btns-container">
-                    <a href={project.github} target="_blank" rel="noreferrer">
-                      <button>
-                        <i className="bx bxl-github"></i>
-                      </button>
-                    </a>
-                    <a href={project.link} target="_blank" rel="noreferrer">
-                      <button>
-                        <i className="bx bx-link-external"></i>
-                      </button>
-                    </a>
+                    {project.github && (
+                      <a href={project.github} target="_blank" rel="noreferrer">
+                        <button>
+                          <i className="bx bxl-github"></i>
+                        </button>
+                      </a>
+                    )}
+                    {project.link && (
+                      <a href={project.link} target="_blank" rel="noreferrer">
+                        <button>
+                          <i className="bx bx-link-external"></i>
+                        </button>
+                      </a>
+                    )}
                   </div>
                 </div>
               </li>
             ))
-        ):(
-          projectsEnglish.map((project, index) => (
-            <li key={index}>
-              <div className="project__img-container">
-                <img src={project.img} alt={project.name} />
-              </div>
-              <div className="project__info-container">
-                <div className="title-container">
-                  {project.isReact && (
-                    <div className="react-container">
-                      <img src={ReactImg} alt="react" />
-                    </div>
-                  )}
-                  <h4>{project.name}</h4>
+          : projectsEnglish.map((project, index) => (
+              <li key={index} className="project">
+                <div className="project__img-container">
+                  <img src={project.img} alt={project.name} />
                 </div>
-                <p>{project.description}</p>
-                <div className="project__btns-container">
-                  <a href={project.github} target="_blank" rel="noreferrer">
-                    <button>
-                      <i className="bx bxl-github"></i>
-                    </button>
-                  </a>
-                  <a href={project.link} target="_blank" rel="noreferrer">
-                    <button>
-                      <i className="bx bx-link-external"></i>
-                    </button>
-                  </a>
+                <div className="project__info-container">
+                  <div className="title-container">
+                    <h4>{project.name}</h4>
+                  </div>
+                  <p>{project.description}</p>
+                  <ul className="project__stack-list">
+                  {project.stack.map((item, index) => (
+                    <li key={index} className="project__stack-item">{item}</li>
+                  ))}
+                  </ul>
+                  <div className="project__btns-container">
+                    {project.github && (
+                      <a href={project.github} target="_blank" rel="noreferrer">
+                        <button>
+                          <i className="bx bxl-github"></i>
+                        </button>
+                      </a>
+                    )}
+                    {project.link && (
+                      <a href={project.link} target="_blank" rel="noreferrer">
+                        <button>
+                          <i className="bx bx-link-external"></i>
+                        </button>
+                      </a>
+                    )}
+                  </div>
                 </div>
-              </div>
-            </li>
-          )
-        ))}
+              </li>
+            ))}
       </ul>
     </section>
   );

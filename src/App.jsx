@@ -12,6 +12,8 @@ function App() {
   const [isSpanish, setIsSpanish] = useState(true);
 
   const themeClass = isDay ? 'day-mode' : 'dark-mode';
+  const currentYear = new Date().getFullYear();
+  const startYear = 2023;
 
   return (
     <article className={themeClass}>
@@ -28,7 +30,7 @@ function App() {
       <Contact language={isSpanish}/>
       <footer>
         <p>
-          Miguel Garavito in 2023 ©
+          © {startYear}{currentYear > startYear ? ` - ${currentYear}` : ''} Miguel Garavito
         </p>
       </footer>
     </article>

@@ -1,244 +1,196 @@
-import JSImg from "../assets/img/hardskills/js.png"
-import HTMLImg from "../assets/img/hardskills/html.jpg"
-import CSSImg from "../assets/img/hardskills/css.svg"
-import GitImg from "../assets/img/hardskills/git.png"
-import GithubImg from "../assets/img/hardskills/github.png"
-import ReactImg from "../assets/img/hardskills/react.svg"
-import ReactRouterImg from "../assets/img/hardskills/react-router.png"
-import ReduxImg from "../assets/img/hardskills/redux.svg"
-import NodeJSImg from "../assets/img/hardskills/nodejs.svg"
-import EnglishImg from "../assets/img/hardskills/englishflag.jpg"
-import ScrumImg from "../assets/img/hardskills/scrum.png"
-import PythonImg from "../assets/img/hardskills/python.svg"
-import OfficeImg from "../assets/img/hardskills/Office.svg"
-import eCommerceReactImg from "../assets/img/projects/e-commerce-react.png"
-import pokeAppImg from "../assets/img/projects/pokeapp.png"
-import usersCRUDImg from "../assets/img/projects/users-crud.png"
-import rickAndMortyImg from "../assets/img/projects/rickandmorty.png"
-import weatherAppImg from "../assets/img/projects/weatherapp2.png"
-import infogalaxImg from "../assets/img/projects/infogalax.png"
-import eCommerceVanillaImg from "../assets/img/projects/e-commerce-vanilla.png"
-import normativasUCundinamarcaImg from "../assets/img/projects/normativasUCundinamarca.png"
-import escalanteCafeImg from "../assets/img/projects/escalante-cafe.png"
+import PhpImg from "../assets/img/hardskills/php.svg";
+import PythonImg from "../assets/img/hardskills/python.svg";
+import SqlImg from "../assets/img/hardskills/sql.png";
+import MysqlImg from "../assets/img/hardskills/mysql.svg";
+import PostgresqlImg from "../assets/img/hardskills/postgresql.svg";
+import ApiImg from "../assets/img/hardskills/api.png";
+import JSImg from "../assets/img/hardskills/js.png";
+import ReactImg from "../assets/img/hardskills/react.svg";
+import HTMLImg from "../assets/img/hardskills/html.jpg";
+import CSSImg from "../assets/img/hardskills/css.svg";
+import GitImg from "../assets/img/hardskills/git.png";
+import GithubImg from "../assets/img/hardskills/github.png";
+
+import eCommerceApiImg from "../assets/img/projects/e-commerce.png";
+import normativasUCundinamarcaImg from "../assets/img/projects/normativasUCundinamarca.png";
+import pokeAppImg from "../assets/img/projects/pokeapp.png";
+import weatherAppImg from "../assets/img/projects/weatherapp.png";
+import infoSensorTurbidezImg from "../assets/img/projects/info_sensor_turbidez.png";
+import beeMonitorImg from "../assets/img/projects/bee_monitor.png";
 
 export const hardSkills = [
-    {
-        name: "JavaScript",
-        className: "JSImg",
-        img: JSImg,
-    },
-    {
-        name: "HTML",
-        className: "HTMLImg",
-        img: HTMLImg,
-    },
-    {
-        name: "CSS",
-        className: "CSSImg",
-        img: CSSImg,
-    },
-    {
-        name: "Git",
-        className: "GitImg",
-        img: GitImg,
-    },
-    {
-        name: "Github",
-        className: "GithubImg",
-        img: GithubImg,
-    },
-    {
-        name: "React",
-        className: "ReactImg",
-        img: ReactImg,
-    },
-    {
-        name: "React Router",
-        className: "ReactRouterImg",
-        img: ReactRouterImg,
-    },
-    {
-        name: "Redux",
-        className: "ReduxImg",
-        img: ReduxImg,
-    },
-    {
-        name: "Node JS",
-        className: "NodeJSImg",
-        img: NodeJSImg,
-    },
-    {
-        name: "English C1",
-        className: "EnglishImg",
-        img: EnglishImg,
-    },
-    {
-        name: "Scrum Master",
-        className: "ScrumImg",
-        img: ScrumImg,
-    },
-    {
-        name: "Python",
-        className: "PythonImg",
-        img: PythonImg,
-    },
-    {
-        name: "Office",
-        className: "OfficeImg",
-        img: OfficeImg,
-    }
+  {
+    name: "PHP",
+    className: "PhpImg",
+    img: PhpImg,
+  },
+  {
+    name: "Python",
+    className: "PythonImg",
+    img: PythonImg,
+  },
+  {
+    name: "SQL",
+    className: "SqlImg",
+    img: SqlImg,
+  },
+  {
+    name: "MySQL",
+    className: "MysqlImg",
+    img: MysqlImg,
+  },
+  {
+    name: "PostgreSQL",
+    className: "PostgresqlImg",
+    img: PostgresqlImg,
+  },
+  {
+    name: "REST APIs",
+    className: "ApiImg",
+    img: ApiImg,
+  },
+  {
+    name: "JavaScript",
+    className: "JSImg",
+    img: JSImg,
+  },
+  {
+    name: "React",
+    className: "ReactImg",
+    img: ReactImg,
+  },
+  {
+    name: "HTML",
+    className: "HTMLImg",
+    img: HTMLImg,
+  },
+  {
+    name: "CSS",
+    className: "CSSImg",
+    img: CSSImg,
+  },
+  {
+    name: "Git",
+    className: "GitImg",
+    img: GitImg,
+  },
+  {
+    name: "Github",
+    className: "GithubImg",
+    img: GithubImg,
+  },
 ];
 
 export const projectsSpanish = [
-    {
-        name: "Escalante Café",
-        img: escalanteCafeImg,
-        description: "Proyecto desarrollado para el emprendimiento Escalante Café, con el objetivo de promocionar sus productos al público y aumentar su visibilidad en el mercado.",
-        github: "https://github.com/XxMigue03xX/Escalante-Cafe",
-        link: "https://escalantecafe.netlify.app/",
-        isReact: true
-    },
-    {
-        name: "Normativas UCundinamarca",
-        img: normativasUCundinamarcaImg,
-        description: "Proyecto realizado en conjunto con el fin de desarrollar una página para informar a la comunidad universitaria sobre el reglamento estudiantil y las politicas de gratuidad.",
-        github: "https://github.com/SebasCastillo18/projecto-software",
-        link: "https://normativasucundinamarca.netlify.app/",
-        isReact: true
-    },
-    {
-        name: "E-Commerce React",
-        img: eCommerceReactImg,
-        description: "Proyecto personal que simula todas las operaciones de un e-commerce, realiza peticiones a una API para obtener los productos, iniciar sesión, manejo del carrito y creación de registros de compras.",
-        github: "https://github.com/XxMigue03xX/ecommerce-react",
-        link: "https://ecommerce-react-miguelgaravito.netlify.app/",
-        isReact: true
-    },
-    {
-        name: "PokeApp",
-        img: pokeAppImg,
-        description: "Proyecto personal que simula el funcionamiento de una pokedex, consumiendo los datos de la PokeAPI para mostrar todos los pokemones, implementa un sistema de busqueda y filtrado por tipo.",
-        github: "https://github.com/XxMigue03xX/PokeApp",
-        link: "https://pokeapp-miguelgaravito.netlify.app/",
-        isReact: true
-    },
-    {
-        name: "Users CRUD",
-        img: usersCRUDImg,
-        description: "Proyecto personal que brinda toda la funcionalidad de un gestor de usuarios, utiliza una API a la que se realizan las peticiones HTTP que permiten crear, obtener, actualizar y eliminar usuarios.",
-        github: "https://github.com/XxMigue03xX/Users-CRUD",
-        link: "https://users-crud-miguelgaravito.netlify.app/",
-        isReact: true
-    },
-    {
-        name: "Rick and Morty",
-        img: rickAndMortyImg,
-        description: "Proyecto personal que muestra a los personajes de rick and morty, los obtiene de una API y los clasifica por dimensión, implementa paginación y un sistema de búsqueda por ID.",
-        github: "https://github.com/XxMigue03xX/RickAndMorty",
-        link: "https://rickandmorty-miguelgaravito.netlify.app/",
-        isReact: true
-    },
-    {
-        name: "Weather App",
-        img: weatherAppImg,
-        description: "Proyecto personal que obtiene la ubicación del usuario y con ésa información realiza una petición a una API para obtener los datos del clima de ésa ubicación en ése momento, implementa un modo oscuro.",
-        github: "https://github.com/XxMigue03xX/Weather-App",
-        link: "https://weatherapp-miguelgaravito.netlify.app/",
-        isReact: true
-    },
-    {
-        name: "Infogalax",
-        img: infogalaxImg,
-        description: "Primer proyecto personal realizado en React, este projecto muestra datos sobre el espacio, al oprimir el botón, el dato y el fondo de pantalla cambian por otros aleatorios.",
-        github: "https://github.com/XxMigue03xX/Infogalax",
-        link: "https://infogalax-miguelgaravito.netlify.app/",
-        isReact: true
-    },
-    {
-        name: "E-Commerce",
-        img: eCommerceVanillaImg,
-        description: "Proyecto personal que simula un e-commerce básico, realiza peticiones a una API para obtener los productos e implementa un carrito de compras sencillo, fue realizado usando HTML, Javascript y CSS.",
-        github: "https://github.com/XxMigue03xX/E-Commerce",
-        link: "https://e-commerce-miguelgaravito.netlify.app/",
-        isReact: false
-    },
-]
-
-export const projectsEnglish = [
-    {
-        name: "Escalante Cafe",
-        img: escalanteCafeImg,
-        description: "Project developed for the startup Escalante Café, aimed at promoting its products to the public and increasing its market visibility.",
-        github: "https://github.com/XxMigue03xX/Escalante-Cafe",
-        link: "https://escalantecafe.netlify.app/",
-        isReact: true
-    },
-    {
-        name: "UCundinamarca Regulations",
-        img: normativasUCundinamarcaImg,
-        description: "Joint project to develop a web page to inform the university community about student regulations and free policies.",
-        github: "https://github.com/SebasCastillo18/projecto-software",
-        link: "https://normativasucundinamarca.netlify.app/",
-        isReact: true
-    },
-    {
-        name: "E-Commerce React",
-        img: eCommerceReactImg,
-        description: "Personal project that simulates all the operations of an e-commerce, makes requests to an API to get the products, login, cart management and creation of shopping records.",
-        github: "https://github.com/XxMigue03xX/ecommerce-react",
-        link: "https://ecommerce-react-miguelgaravito.netlify.app/",
-        isReact: true
-    },
-    {
-        name: "PokeApp",
-        img: pokeAppImg,
-        description: "Personal project that simulates the operation of a pokedex, consuming the PokeAPI data to display all pokemon, implements a search and filtering system by type.",
-        github: "https://github.com/XxMigue03xX/PokeApp",
-        link: "https://pokeapp-miguelgaravito.netlify.app/",
-        isReact: true
-    },
-    {
-        name: "Users CRUD",
-        img: usersCRUDImg,
-        description: "Personal project that provides all the functionality of a user manager, uses an API to which HTTP requests are made that allow users to create, get, update and delete users.",
-        github: "https://github.com/XxMigue03xX/Users-CRUD",
-        link: "https://users-crud-miguelgaravito.netlify.app/",
-        isReact: true
-    },
-    {
-        name: "Rick and Morty",
-        img: rickAndMortyImg,
-        description: "Personal project that displays rick and morty characters, fetches them from an API and sorts them by dimension, implements pagination and a search by ID system.",
-        github: "https://github.com/XxMigue03xX/RickAndMorty",
-        link: "https://rickandmorty-miguelgaravito.netlify.app/",
-        isReact: true
-    },
-    {
-        name: "WeatherApp",
-        img: weatherAppImg,
-        description: "Personal project that gets the user's location and with that information makes a request to an API to get the weather data for that location at that time, implements a dark mode.",
-        github: "https://github.com/XxMigue03xX/Weather-App",
-        link: "https://weatherapp-miguelgaravito.netlify.app/",
-        isReact: true
-    },
-    {
-        name: "Infogalax",
-        img: infogalaxImg,
-        description: "First personal project done in React, this project displays data about the space, when the button is pressed, the data and the background change to random ones.",
-        github: "https://github.com/XxMigue03xX/Infogalax",
-        link: "https://infogalax-miguelgaravito.netlify.app/",
-        isReact: true
-    },
-    {
-        name: "E-Commerce",
-        img: eCommerceVanillaImg,
-        description: "Personal project that simulates a basic e-commerce, makes requests to an API to get the products and implements a simple shopping cart, it was made using HTML, Javascript and CSS.",
-        github: "https://github.com/XxMigue03xX/E-Commerce",
-        link: "https://e-commerce-miguelgaravito.netlify.app/",
-        isReact: false
-    },
+  {
+    name: "Bee Monitoring Platform",
+    img: beeMonitorImg,
+    description:
+      "Proyecto de grado sobre monitoreo IoT de colmenas. Diseñé la arquitectura completa, desarrollé la API, el modelo en MySQL, la autenticación JWT, el dashboard web y el despliegue productivo.",
+    stack: ["PHP", "MySQL", "JavaScript", "JWT", "REST API", "LiteSpeed"],
+    github: null,
+    link: null
+  },
+  {
+    name: "E-Commerce API",
+    img: eCommerceApiImg,
+    description:
+      "API REST para e-commerce desarrollada como proyecto personal. Implementa autenticación JWT, CRUD de usuarios, productos y categorías, carga de imágenes, carrito de compras, historial de órdenes y pruebas automatizadas.",
+    stack: ["Node.js", "Express", "PostgreSQL", "Sequelize", "JWT", "Cloudinary", "Supertest"],
+    github: "https://github.com/XxMigue03xX/Ecommerce-API",
+    link: null
+  },
+  {
+    name: "Info Sensor Turbidez",
+    img: infoSensorTurbidezImg,
+    description:
+      "Proyecto académico de integración IoT para registrar mediciones de turbidez desde un ESP32. Implementa API en PHP, persistencia en MySQL, autenticación por token, sesiones de medición y visualización web de resultados.",
+    stack: ["PHP", "MySQL", "JavaScript", "HTML", "CSS", "ESP32", "Chart.js"],
+    github: "https://github.com/XxMigue03xX/info_sensor_turbidez",
+    link: null
+  },
+  {
+    name: "Normativas UCundinamarca",
+    img: normativasUCundinamarcaImg,
+    description:
+      "Proyecto desarrollado en equipo para facilitar la consulta del reglamento estudiantil y las políticas de gratuidad mediante una interfaz clara, accesible y orientada a mejorar la experiencia informativa.",
+    stack: ["React", "JavaScript", "JSON", "CSS"],
+    github: "https://github.com/SebasCastillo18/Proyecto-software",
+    link: "https://normativasucundinamarca.netlify.app/"
+  },
+  {
+    name: "PokeApp",
+    img: pokeAppImg,
+    description:
+      "Proyecto personal que simula una Pokédex consumiendo la PokeAPI. Permite búsqueda, filtrado por tipo, navegación entre resultados y renderización dinámica de información para mejorar la experiencia de exploración.",
+    stack: ["React", "JavaScript", "CSS", "PokeAPI"],
+    github: "https://github.com/XxMigue03xX/PokeApp",
+    link: "https://pokeapp-miguelgaravito.netlify.app/"
+  },
+  {
+    name: "Weather App",
+    img: weatherAppImg,
+    description:
+      "Proyecto personal que obtiene la ubicación del usuario y consume una API pública para mostrar clima en tiempo real, incluyendo temperatura, humedad, velocidad del viento y datos básicos del entorno.",
+    stack: ["React", "JavaScript", "CSS", "Weather API", "Geolocation API"],
+    github: "https://github.com/XxMigue03xX/Weather-App",
+    link: "https://weatherapp-miguelgaravito.netlify.app/"
+  }
 ];
 
-
-
-export default ReactImg;
+export const projectsEnglish = [
+  {
+    name: "Bee Monitoring Platform",
+    img: beeMonitorImg,
+    description:
+      "Capstone project on IoT-based beehive monitoring. I designed the full architecture, developed the API, the MySQL model, JWT authentication, the web dashboard, and the production deployment.",
+    stack: ["PHP", "MySQL", "JavaScript", "JWT", "REST API", "LiteSpeed"],
+    github: null,
+    link: null
+  },
+  {
+    name: "E-Commerce API",
+    img: eCommerceApiImg,
+    description:
+      "REST API for an e-commerce system developed as a personal project. It includes JWT authentication, CRUD for users, products, and categories, image uploads, cart flows, order history, and automated tests.",
+    stack: ["Node.js", "Express", "PostgreSQL", "Sequelize", "JWT", "Cloudinary", "Supertest"],
+    github: "https://github.com/XxMigue03xX/Ecommerce-API",
+    link: null
+  },
+  {
+    name: "Turbidity Sensor Platform",
+    img: infoSensorTurbidezImg,
+    description:
+      "Academic IoT integration project for registering turbidity measurements from an ESP32 device. It includes a PHP API, MySQL persistence, token-based authentication, measurement sessions, and web-based result visualization.",
+    stack: ["PHP", "MySQL", "JavaScript", "HTML", "CSS", "ESP32", "Chart.js"],
+    github: "https://github.com/XxMigue03xX/info_sensor_turbidez",
+    link: null
+  },
+  {
+    name: "UCundinamarca Regulations",
+    img: normativasUCundinamarcaImg,
+    description:
+      "Team project created to simplify access to student regulations and tuition policy information through a clear, accessible interface designed to improve usability and understanding for the university community.",
+    stack: ["React", "JavaScript", "JSON", "CSS"],
+    github: "https://github.com/SebasCastillo18/Proyecto-software",
+    link: "https://normativasucundinamarca.netlify.app/"
+  },
+  {
+    name: "PokeApp",
+    img: pokeAppImg,
+    description:
+      "Personal project that simulates a Pokédex by consuming the PokeAPI. It supports search, type filtering, result navigation, and dynamic rendering of information to improve the browsing experience.",
+    stack: ["React", "JavaScript", "CSS", "PokeAPI"],
+    github: "https://github.com/XxMigue03xX/PokeApp",
+    link: "https://pokeapp-miguelgaravito.netlify.app/"
+  },
+  {
+    name: "Weather App",
+    img: weatherAppImg,
+    description:
+      "Personal project that gets the user's location and consumes a public API to display real-time weather, including temperature, humidity, wind speed, and other basic environmental information.",
+    stack: ["React", "JavaScript", "CSS", "Weather API", "Geolocation API"],
+    github: "https://github.com/XxMigue03xX/Weather-App",
+    link: "https://weatherapp-miguelgaravito.netlify.app/"
+  }
+];

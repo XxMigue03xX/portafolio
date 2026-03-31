@@ -19,7 +19,7 @@ const Header = ({ language }) => {
 
   const borderStyle = () => {
     const borderColor = isHovered ? "var(--orange)" : "var(--blue)";
-    return { "boxShadow": `5px 5px 10px 2px ${borderColor}` };
+    return { boxShadow: `5px 5px 10px 2px ${borderColor}` };
   };
 
   const fontStyle = {
@@ -28,12 +28,12 @@ const Header = ({ language }) => {
 
   const btnStyle = () => {
     const btnColor = isHovered ? "var(--blue)" : "var(--orange)";
-    return { "boxShadow": `1px 1px 2px 1px ${btnColor}` };
+    return { boxShadow: `1px 1px 2px 1px ${btnColor}` };
   };
 
   const redirectTo = (site) => {
     window.open(site);
-  }
+  };
 
   useEffect(() => {
     const sr = ScrollReveal();
@@ -73,47 +73,63 @@ const Header = ({ language }) => {
       <div className="header__contact-and-cv">
         <div className="description">
           <h1>
-            {language ? "Hola, mi nombre es" : "Hello, i am"}
+            {language ? "Hola, mi nombre es" : "Hello, I'm"}
             <br />
             <span style={fontStyle}>Miguel Garavito</span>
           </h1>
           <h2>
-            <span style={fontStyle}>FullStack</span> Developer
+            <span style={fontStyle}>
+              {language ? "Ing. de Sistemas" : "Systems Engineer"}
+            </span>{" "}
+            | Backend
           </h2>
         </div>
         <div className="header__btns-container">
-          <button 
-            onClick={() => redirectTo("https://wa.me/+573054079207?text=Hola,%20quiero%20contactarte")}
+          <button
+            onClick={() =>
+              redirectTo(
+                "https://wa.me/+573054079207?text=Hola,%20quiero%20contactarte"
+              )
+            }
             className="btn-header phone-btn"
           >
             <strong>{language ? "Teléfono" : "Phone"}</strong>
             <i className="bx bxs-phone"></i>
           </button>
-          <button 
-            onClick={() => redirectTo("https://www.linkedin.com/in/miguel-%C3%A1ngel-garavito-camargo/")}
+          <button
+            onClick={() =>
+              redirectTo(
+                "https://www.linkedin.com/in/miguel-%C3%A1ngel-garavito-camargo/"
+              )
+            }
             className="btn-header linkedin-btn"
           >
             <strong>Linkedin</strong>
             <i className="bx bxl-linkedin-square"></i>
           </button>
-          <button 
+          <button
             onClick={() => redirectTo("https://github.com/XxMigue03xX")}
             className="btn-header github-btn"
           >
             <strong>Github</strong>
             <i className="bx bxl-github"></i>
           </button>
-          <button 
-            onClick={() => redirectTo("mailto:mgaravitocamargo@gmail.com")}
+          <button
+            onClick={() => redirectTo("mailto:miguel.garavito.camargo@gmail.com")}
             className="btn-header email-btn"
           >
             <strong>Email</strong>
             <i className="bx bx-envelope"></i>
           </button>
-          <button 
-            onClick={() => redirectTo("https://drive.google.com/file/d/1Npy96UyITlT8_l3aw5N27AwuGkWBdVrv/view")}
+          <button
+            onClick={() =>
+              redirectTo(
+                "https://drive.google.com/file/d/1R2D6tCGERZmdcXtVtpvK-3Eg2axa6mEj/view?usp=drive_link"
+              )
+            }
             className="btn-header cv-btn"
-            style={btnStyle()}>
+            style={btnStyle()}
+          >
             <strong>{language ? "Descargar CV" : "Download CV"}</strong>
             <i className="bx bx-down-arrow-circle"></i>
           </button>
