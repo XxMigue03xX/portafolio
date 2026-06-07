@@ -9,7 +9,7 @@ import './App.css'
 
 function App() {
   const [isDay, setisDay] = useState(false);
-  const [isSpanish, setIsSpanish] = useState(true);
+  const [isSpanish, setIsSpanish] = useState(false);
 
   const themeClass = isDay ? 'day-mode' : 'dark-mode';
   const currentYear = new Date().getFullYear();
